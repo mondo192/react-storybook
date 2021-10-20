@@ -5272,6 +5272,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chromatic@npm:^6.0.4":
+  version: 6.0.4
+  resolution: "chromatic@npm:6.0.4"
+  bin:
+    chroma: bin/main.cjs
+    chromatic: bin/main.cjs
+    chromatic-cli: bin/main.cjs
+  checksum: 5f59af090834c2bcf3853a0b9dc18300331bc571a6fc87b393141e1c4626acf5b8aa1d9ce8fe72f9c3e92d10dcbe111ef274136fc960e12bf157942033e40410
+  languageName: node
+  linkType: hard
+
 "chrome-trace-event@npm:^1.0.2":
   version: 1.0.3
   resolution: "chrome-trace-event@npm:1.0.3"
@@ -11650,6 +11661,7 @@ fsevents@^1.2.7:
     "@types/react-dom": ^17.0.10
     "@types/webpack-dev-server": ^4.3.1
     babel-loader: ^8.2.2
+    chromatic: ^6.0.4
     html-webpack-plugin: ^5.4.0
     husky: ^7.0.2
     react: ^17.0.2

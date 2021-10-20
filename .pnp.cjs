@@ -48,6 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.10"],
             ["@types/webpack-dev-server", "npm:4.3.1"],
             ["babel-loader", "virtual:8b1a035246ae85ff837f9f05dcef04a17c014e110c1391de288c07b209c57a7ebb5ec7a4f19f59b1170d9da947432b7c5315fc3bf19a13a44b080b809e82a7c1#npm:8.2.2"],
+            ["chromatic", "npm:6.0.4"],
             ["html-webpack-plugin", "virtual:8b1a035246ae85ff837f9f05dcef04a17c014e110c1391de288c07b209c57a7ebb5ec7a4f19f59b1170d9da947432b7c5315fc3bf19a13a44b080b809e82a7c1#npm:5.4.0"],
             ["husky", "npm:7.0.2"],
             ["react", "npm:17.0.2"],
@@ -9096,6 +9097,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["chromatic", [
+        ["npm:6.0.4", {
+          "packageLocation": "./.yarn/cache/chromatic-npm-6.0.4-138ff17d66-5f59af0908.zip/node_modules/chromatic/",
+          "packageDependencies": [
+            ["chromatic", "npm:6.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["chrome-trace-event", [
         ["npm:1.0.3", {
           "packageLocation": "./.yarn/cache/chrome-trace-event-npm-1.0.3-e0ae3dcd60-cb8b1fc7e8.zip/node_modules/chrome-trace-event/",
@@ -16617,6 +16627,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.10"],
             ["@types/webpack-dev-server", "npm:4.3.1"],
             ["babel-loader", "virtual:8b1a035246ae85ff837f9f05dcef04a17c014e110c1391de288c07b209c57a7ebb5ec7a4f19f59b1170d9da947432b7c5315fc3bf19a13a44b080b809e82a7c1#npm:8.2.2"],
+            ["chromatic", "npm:6.0.4"],
             ["html-webpack-plugin", "virtual:8b1a035246ae85ff837f9f05dcef04a17c014e110c1391de288c07b209c57a7ebb5ec7a4f19f59b1170d9da947432b7c5315fc3bf19a13a44b080b809e82a7c1#npm:5.4.0"],
             ["husky", "npm:7.0.2"],
             ["react", "npm:17.0.2"],
